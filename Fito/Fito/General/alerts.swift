@@ -11,12 +11,12 @@ import UIKit
 
 extension UIViewController {
     
-    func okAlert(title: String, message: String) {
+    open func okAlert(title: String, message: String) {
         let alert = OkAlert(title: title, message: message)
         present(alert, animated: true, completion: nil)
     }
     
-    func deleteAlert(title: String, message: String, deleteBlock: @escaping (UIAlertAction) -> Void) {
+    open func deleteAlert(title: String, message: String, deleteBlock: @escaping (UIAlertAction) -> Void) {
         let alert = DeleteAlert(title: title, message: message, deleteBlock: deleteBlock)
         present(alert, animated: true, completion: nil)
     }
@@ -24,20 +24,18 @@ extension UIViewController {
 }
 
 
-class OkAlert : UIAlertController {
+open class OkAlert : UIAlertController {
     
-    let okAction = UIAlertAction(title: "Ok", style: .default)
-    
-    convenience init(title: String?, message: String?) {
+    public convenience init(title: String?, message: String?) {
         self.init(title: title, message: message, preferredStyle: .alert)
-        addAction(okAction)
+        addAction(UIAlertAction(title: "Ok", style: .default))
         
     }
     
 }
 
 
-class DeleteAlert : UIAlertController {
+open class DeleteAlert : UIAlertController {
     
     let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
     
@@ -47,7 +45,7 @@ class DeleteAlert : UIAlertController {
     }
     
     
-    convenience init(title: String?, message: String?, deleteBlock: @escaping (UIAlertAction) -> Void) {
+    public convenience init(title: String?, message: String?, deleteBlock: @escaping (UIAlertAction) -> Void) {
         
         self.init(title: title, message: message, preferredStyle: .alert)
         

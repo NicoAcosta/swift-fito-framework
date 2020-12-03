@@ -26,7 +26,7 @@ extension WKWebView {
 
 extension UIViewController {
     
-    func openInSafari(URLString: String?) {
+    open func openInSafari(URLString: String?) {
         
         if let safeURL = URLString {
             UIApplication.shared.open(URL(string: safeURL)!)

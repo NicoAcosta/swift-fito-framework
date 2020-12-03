@@ -10,19 +10,19 @@ import UIKit
 
 extension UILabel {
     
-    func color(_ color: UIColor) {
+    open func color(_ color: UIColor) {
         self.textColor = color
     }
     
-    func text(_ text: String) {
+    open func text(_ text: String) {
         self.text = text
     }
     
-    func font(_ name: String) {
+    open func font(_ name: String) {
         self.font = UIFont(name: name, size: self.font.pointSize)!
     }
     
-    func fontWithSize(_ name: String, _ size: CGFloat) {
+    open func fontWithSize(_ name: String, _ size: CGFloat) {
         self.font = UIFont(name: name, size: size)
     }
     

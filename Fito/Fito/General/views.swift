@@ -11,11 +11,11 @@ import UIKit
 
 extension UIView {
     
-    func hide() {
+    open func hide() {
         self.isHidden = true
     }
     
-    func show() {
+    open func show() {
         self.isHidden = false
     }
     

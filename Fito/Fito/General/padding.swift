@@ -9,35 +9,51 @@ import Foundation
 import UIKit
 
 
-class UITextFieldPadding : UITextField {
+open class UITextFieldPadding : UITextField {
     
-      let padding = UIEdgeInsets(top: 15, left: 15, bottom: 15, right: 15)
+    public var padding = UIEdgeInsets(top: 15, left: 15, bottom: 15, right: 15)
       
-      required init?(coder aDecoder: NSCoder) {
+    public convenience init (top: CGFloat, left: CGFloat, bottom: CGFloat, right: CGFloat) {
+        self.init()
+        padding = UIEdgeInsets(top: top, left: left, bottom: bottom, right: right)
+    }
+    
+    /*
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
       }
-      
-      override func textRect(forBounds bounds: CGRect) -> CGRect {
+      */
+    open override func textRect(forBounds bounds: CGRect) -> CGRect {
         return bounds.inset(by: padding)
       }
       
-      override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+    open override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
         return bounds.inset(by: padding)
       }
       
-      override func editingRect(forBounds bounds: CGRect) -> CGRect {
+    open override func editingRect(forBounds bounds: CGRect) -> CGRect {
         return bounds.inset(by: padding)
       }
     
 }
 
 
-class UITextViewPadding : UITextView {
+open class UITextViewPadding : UITextView {
     
+    public convenience init(top: CGFloat, left: CGFloat, bottom: CGFloat, right: CGFloat) {
+        self.init()
+        textContainerInset = UIEdgeInsets(top: top, left: left, bottom: bottom, right: right)
+    }
+    
+    public convenience init() {
+        self.init()
+        textContainerInset = UIEdgeInsets(top: 20, left: 10, bottom: 20, right: 10)
+    }
+    /*
       required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         textContainerInset = UIEdgeInsets(top: 20, left: 10, bottom: 20, right: 10)
       }
-    
+    */
 }
 

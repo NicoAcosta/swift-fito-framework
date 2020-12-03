@@ -10,7 +10,7 @@ import UIKit
 
 extension UIViewController {
     
-    func imageFromData(_ data: Data?) -> UIImage? {
+    open func imageFromData(_ data: Data?) -> UIImage? {
         if let safeData = data {
             return UIImage(data: safeData) ?? nil
         }
@@ -22,7 +22,7 @@ extension UIViewController {
 
 extension UIImageView {
     
-    func whiteBorders() {
+    open func whiteBorders() {
         
         self.layer.borderColor = UIColor.white.cgColor
         self.layer.borderWidth = 5
@@ -37,7 +37,7 @@ extension UIImageView {
 extension UIViewController {
     
     
-    func share(items: [Any]) {
+    open func share(items: [Any]) {
         let share = UIActivityViewController(activityItems: items, applicationActivities: nil)
         present(share, animated: true)
     }
@@ -45,11 +45,11 @@ extension UIViewController {
     
     //MARK: - Save image
 
-    func saveImage(_ image: UIImage) {
+    open func saveImage(_ image: UIImage) {
         UIImageWriteToSavedPhotosAlbum(image, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
     }
 
-    func saveImages(_ images: [UIImage]) {
+    open func saveImages(_ images: [UIImage]) {
         for image in images {
             saveImage(image)
         }
@@ -57,7 +57,7 @@ extension UIViewController {
     
     //MARK: - Save Image callback
 
-    @objc func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
+    @objc open func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
 
         if let error = error {
 
