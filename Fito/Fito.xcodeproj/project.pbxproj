@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FDA87A25789BEC000D9773 /* Fito.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FDA87825789BEC000D9773 /* Fito.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03FDA89B25789C19000D9773 /* GothamUltraItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88325789C19000D9773 /* GothamUltraItalic.ttf */; };
+		03FDA89C25789C19000D9773 /* GothamXLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88425789C19000D9773 /* GothamXLightItalic.ttf */; };
+		03FDA89D25789C19000D9773 /* GothamUltra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88525789C19000D9773 /* GothamUltra.ttf */; };
+		03FDA89E25789C19000D9773 /* GothamLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88625789C19000D9773 /* GothamLight.ttf */; };
+		03FDA89F25789C19000D9773 /* GothamBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88725789C19000D9773 /* GothamBlack.ttf */; };
+		03FDA8A025789C19000D9773 /* GothamBlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88825789C19000D9773 /* GothamBlackItalic.ttf */; };
+		03FDA8A125789C19000D9773 /* GothamMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88925789C19000D9773 /* GothamMediumItalic.ttf */; };
+		03FDA8A225789C19000D9773 /* GothamBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88A25789C19000D9773 /* GothamBold.ttf */; };
+		03FDA8A325789C19000D9773 /* GothamThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88B25789C19000D9773 /* GothamThinItalic.ttf */; };
+		03FDA8A425789C19000D9773 /* GothamBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88C25789C19000D9773 /* GothamBoldItalic.ttf */; };
+		03FDA8A525789C19000D9773 /* GothamXLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88D25789C19000D9773 /* GothamXLight.ttf */; };
+		03FDA8A625789C19000D9773 /* GothamLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88E25789C19000D9773 /* GothamLightItalic.ttf */; };
+		03FDA8A725789C19000D9773 /* GothamMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA88F25789C19000D9773 /* GothamMedium.ttf */; };
+		03FDA8A825789C19000D9773 /* GothamThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FDA89025789C19000D9773 /* GothamThin.ttf */; };
+		03FDA8A925789C19000D9773 /* gradientLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDA89225789C19000D9773 /* gradientLayers.swift */; };
+		03FDA8AA25789C19000D9773 /* buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDA89325789C19000D9773 /* buttons.swift */; };
+		03FDA8AB25789C19000D9773 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDA89425789C19000D9773 /* MyViewController.swift */; };
+		03FDA8AC25789C19000D9773 /* labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDA89525789C19000D9773 /* labels.swift */; };
+		03FDA8AD25789C19000D9773 /* alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDA89625789C19000D9773 /* alerts.swift */; };
+		03FDA8AE25789C19000D9773 /* web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDA89725789C19000D9773 /* web.swift */; };
+		03FDA8AF25789C19000D9773 /* images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDA89825789C19000D9773 /* images.swift */; };
+		03FDA8B025789C19000D9773 /* views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDA89925789C19000D9773 /* views.swift */; };
+		03FDA8B125789C19000D9773 /* padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDA89A25789C19000D9773 /* padding.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03FDA87525789BEC000D9773 /* Fito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FDA87825789BEC000D9773 /* Fito.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fito.h; sourceTree = "<group>"; };
+		03FDA87925789BEC000D9773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FDA88325789C19000D9773 /* GothamUltraItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamUltraItalic.ttf; sourceTree = "<group>"; };
+		03FDA88425789C19000D9773 /* GothamXLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamXLightItalic.ttf; sourceTree = "<group>"; };
+		03FDA88525789C19000D9773 /* GothamUltra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamUltra.ttf; sourceTree = "<group>"; };
+		03FDA88625789C19000D9773 /* GothamLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLight.ttf; sourceTree = "<group>"; };
+		03FDA88725789C19000D9773 /* GothamBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBlack.ttf; sourceTree = "<group>"; };
+		03FDA88825789C19000D9773 /* GothamBlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBlackItalic.ttf; sourceTree = "<group>"; };
+		03FDA88925789C19000D9773 /* GothamMediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMediumItalic.ttf; sourceTree = "<group>"; };
+		03FDA88A25789C19000D9773 /* GothamBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBold.ttf; sourceTree = "<group>"; };
+		03FDA88B25789C19000D9773 /* GothamThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamThinItalic.ttf; sourceTree = "<group>"; };
+		03FDA88C25789C19000D9773 /* GothamBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBoldItalic.ttf; sourceTree = "<group>"; };
+		03FDA88D25789C19000D9773 /* GothamXLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamXLight.ttf; sourceTree = "<group>"; };
+		03FDA88E25789C19000D9773 /* GothamLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLightItalic.ttf; sourceTree = "<group>"; };
+		03FDA88F25789C19000D9773 /* GothamMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMedium.ttf; sourceTree = "<group>"; };
+		03FDA89025789C19000D9773 /* GothamThin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamThin.ttf; sourceTree = "<group>"; };
+		03FDA89225789C19000D9773 /* gradientLayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gradientLayers.swift; sourceTree = "<group>"; };
+		03FDA89325789C19000D9773 /* buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttons.swift; sourceTree = "<group>"; };
+		03FDA89425789C19000D9773 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		03FDA89525789C19000D9773 /* labels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = labels.swift; sourceTree = "<group>"; };
+		03FDA89625789C19000D9773 /* alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alerts.swift; sourceTree = "<group>"; };
+		03FDA89725789C19000D9773 /* web.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = web.swift; sourceTree = "<group>"; };
+		03FDA89825789C19000D9773 /* images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = images.swift; sourceTree = "<group>"; };
+		03FDA89925789C19000D9773 /* views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = views.swift; sourceTree = "<group>"; };
+		03FDA89A25789C19000D9773 /* padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = padding.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03FDA87225789BEC000D9773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FDA86B25789BEC000D9773 = {
+			isa = PBXGroup;
+			children = (
+				03FDA87725789BEC000D9773 /* Fito */,
+				03FDA87625789BEC000D9773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03FDA87625789BEC000D9773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03FDA87525789BEC000D9773 /* Fito.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03FDA87725789BEC000D9773 /* Fito */ = {
+			isa = PBXGroup;
+			children = (
+				03FDA88125789C19000D9773 /* Fonts */,
+				03FDA89125789C19000D9773 /* General */,
+				03FDA87825789BEC000D9773 /* Fito.h */,
+				03FDA87925789BEC000D9773 /* Info.plist */,
+			);
+			path = Fito;
+			sourceTree = "<group>";
+		};
+		03FDA88125789C19000D9773 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				03FDA88225789C19000D9773 /* Gotham */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		03FDA88225789C19000D9773 /* Gotham */ = {
+			isa = PBXGroup;
+			children = (
+				03FDA88325789C19000D9773 /* GothamUltraItalic.ttf */,
+				03FDA88425789C19000D9773 /* GothamXLightItalic.ttf */,
+				03FDA88525789C19000D9773 /* GothamUltra.ttf */,
+				03FDA88625789C19000D9773 /* GothamLight.ttf */,
+				03FDA88725789C19000D9773 /* GothamBlack.ttf */,
+				03FDA88825789C19000D9773 /* GothamBlackItalic.ttf */,
+				03FDA88925789C19000D9773 /* GothamMediumItalic.ttf */,
+				03FDA88A25789C19000D9773 /* GothamBold.ttf */,
+				03FDA88B25789C19000D9773 /* GothamThinItalic.ttf */,
+				03FDA88C25789C19000D9773 /* GothamBoldItalic.ttf */,
+				03FDA88D25789C19000D9773 /* GothamXLight.ttf */,
+				03FDA88E25789C19000D9773 /* GothamLightItalic.ttf */,
+				03FDA88F25789C19000D9773 /* GothamMedium.ttf */,
+				03FDA89025789C19000D9773 /* GothamThin.ttf */,
+			);
+			path = Gotham;
+			sourceTree = "<group>";
+		};
+		03FDA89125789C19000D9773 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				03FDA89425789C19000D9773 /* MyViewController.swift */,
+				03FDA89225789C19000D9773 /* gradientLayers.swift */,
+				03FDA89325789C19000D9773 /* buttons.swift */,
+				03FDA89525789C19000D9773 /* labels.swift */,
+				03FDA89625789C19000D9773 /* alerts.swift */,
+				03FDA89725789C19000D9773 /* web.swift */,
+				03FDA89825789C19000D9773 /* images.swift */,
+				03FDA89925789C19000D9773 /* views.swift */,
+				03FDA89A25789C19000D9773 /* padding.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03FDA87025789BEC000D9773 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FDA87A25789BEC000D9773 /* Fito.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03FDA87425789BEC000D9773 /* Fito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FDA87D25789BEC000D9773 /* Build configuration list for PBXNativeTarget "Fito" */;
+			buildPhases = (
+				03FDA87025789BEC000D9773 /* Headers */,
+				03FDA87125789BEC000D9773 /* Sources */,
+				03FDA87225789BEC000D9773 /* Frameworks */,
+				03FDA87325789BEC000D9773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fito;
+			productName = Fito;
+			productReference = 03FDA87525789BEC000D9773 /* Fito.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03FDA86C25789BEC000D9773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					03FDA87425789BEC000D9773 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 03FDA86F25789BEC000D9773 /* Build configuration list for PBXProject "Fito" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03FDA86B25789BEC000D9773;
+			productRefGroup = 03FDA87625789BEC000D9773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03FDA87425789BEC000D9773 /* Fito */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03FDA87325789BEC000D9773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FDA89D25789C19000D9773 /* GothamUltra.ttf in Resources */,
+				03FDA8A425789C19000D9773 /* GothamBoldItalic.ttf in Resources */,
+				03FDA8A525789C19000D9773 /* GothamXLight.ttf in Resources */,
+				03FDA89C25789C19000D9773 /* GothamXLightItalic.ttf in Resources */,
+				03FDA89B25789C19000D9773 /* GothamUltraItalic.ttf in Resources */,
+				03FDA8A225789C19000D9773 /* GothamBold.ttf in Resources */,
+				03FDA89E25789C19000D9773 /* GothamLight.ttf in Resources */,
+				03FDA8A625789C19000D9773 /* GothamLightItalic.ttf in Resources */,
+				03FDA8A725789C19000D9773 /* GothamMedium.ttf in Resources */,
+				03FDA8A025789C19000D9773 /* GothamBlackItalic.ttf in Resources */,
+				03FDA89F25789C19000D9773 /* GothamBlack.ttf in Resources */,
+				03FDA8A825789C19000D9773 /* GothamThin.ttf in Resources */,
+				03FDA8A325789C19000D9773 /* GothamThinItalic.ttf in Resources */,
+				03FDA8A125789C19000D9773 /* GothamMediumItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03FDA87125789BEC000D9773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FDA8A925789C19000D9773 /* gradientLayers.swift in Sources */,
+				03FDA8AF25789C19000D9773 /* images.swift in Sources */,
+				03FDA8AB25789C19000D9773 /* MyViewController.swift in Sources */,
+				03FDA8AE25789C19000D9773 /* web.swift in Sources */,
+				03FDA8B125789C19000D9773 /* padding.swift in Sources */,
+				03FDA8B025789C19000D9773 /* views.swift in Sources */,
+				03FDA8AD25789C19000D9773 /* alerts.swift in Sources */,
+				03FDA8AC25789C19000D9773 /* labels.swift in Sources */,
+				03FDA8AA25789C19000D9773 /* buttons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03FDA87B25789BEC000D9773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03FDA87C25789BEC000D9773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		03FDA87E25789BEC000D9773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KRJ3VT33GB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Fito/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nicoacosta.Fito;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03FDA87F25789BEC000D9773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KRJ3VT33GB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Fito/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nicoacosta.Fito;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FDA86F25789BEC000D9773 /* Build configuration list for PBXProject "Fito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FDA87B25789BEC000D9773 /* Debug */,
+				03FDA87C25789BEC000D9773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FDA87D25789BEC000D9773 /* Build configuration list for PBXNativeTarget "Fito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FDA87E25789BEC000D9773 /* Debug */,
+				03FDA87F25789BEC000D9773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03FDA86C25789BEC000D9773 /* Project object */;
+}
