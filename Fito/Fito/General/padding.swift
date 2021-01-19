@@ -39,21 +39,24 @@ open class UITextFieldPadding : UITextField {
 
 
 open class UITextViewPadding : UITextView {
-    
+    /*
     public convenience init(top: CGFloat, left: CGFloat, bottom: CGFloat, right: CGFloat) {
         self.init()
         textContainerInset = UIEdgeInsets(top: top, left: left, bottom: bottom, right: right)
     }
     
-    public convenience init() {
-        self.init()
-        textContainerInset = UIEdgeInsets(top: 20, left: 10, bottom: 20, right: 10)
-    }
-    /*
-      required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         textContainerInset = UIEdgeInsets(top: 20, left: 10, bottom: 20, right: 10)
-      }
-    */
+    }
+ */
+    
+    
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        textContainerInset = UIEdgeInsets(top: 20, left: 10, bottom: 20, right: 10)
+    }
+    
+    
 }
 
